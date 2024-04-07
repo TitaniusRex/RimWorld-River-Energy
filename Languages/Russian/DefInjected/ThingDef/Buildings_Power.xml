@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LanguageData>
+
+		<WPGTHydroelectricPowerStation.label>Гидроэлектростанция</WPGTHydroelectricPowerStation.label>
+		<WPGTHydroelectricPowerStation.description>Гидроэлектростанция – это установка, позволяющая использовать движущиеся водные массы, текущие в реках, для преобразования их в электроэнергию.</WPGTHydroelectricPowerStation.description>
+
+		<WPGTSmollWaterGenerator.label>Водяная турбина</WPGTSmollWaterGenerator.label>
+		<WPGTSmollWaterGenerator.description>Водяные турбины были разработаны в 19 веке и широко использовались для промышленной энергетики до появления электрических сетей. Сейчас они в основном используются для производства электроэнергии. Водяные турбины в основном устанавливаются на плотинах для выработки электроэнергии из потенциальной энергии воды. Водяные колеса уже сотни лет используются в промышленности. Переход от водяных колес к современным турбинам занял около ста лет. Развитие произошло во время промышленной революции с использованием научных принципов и методов. Они также широко использовали новые материалы и методы производства, разработанные в то время.</WPGTSmollWaterGenerator.description>
+
+		<WPGTUnderDeepWaterPowerConduit.label>скрытый подводный кабель</WPGTUnderDeepWaterPowerConduit.label>
+		<WPGTUnderDeepWaterPowerConduit.description>Пучок электрических кабелей для подачи электроэнергии, помещенный под воду.</WPGTUnderDeepWaterPowerConduit.description>
+
+		
+	</LanguageData>
