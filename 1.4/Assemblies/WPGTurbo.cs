@@ -106,6 +106,22 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		}
 		cacheDirty = false;
 	}
+private void ForceOthersToRebuildCache(Map map)
+	{
+		foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
+		{
+			item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
+		}
+	}
+
+	public override void CompTick()
+	{
+		base.CompTick();
+		if (base.PowerOutput > 0.01f)
+		{
+			spinPosition = (spinPosition + 1f / 100f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
+		}
+	}
 
 
  
