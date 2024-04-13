@@ -79,7 +79,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 			{
 				continue;
 			}
-			foreach (Building item3 in enumerable list)
+			foreach (Building item3 in enumerable)
 			{
 				if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
 				{
@@ -106,3 +106,6 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		}
 		cacheDirty = false;
 	}
+
+
+ 
