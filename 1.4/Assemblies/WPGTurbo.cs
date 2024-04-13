@@ -137,7 +137,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		yield return loc + rot.FacingCell * 3 + perpOffset;
 		yield return loc + rot.FacingCell * 3 + perpOffset * 2;
 	}
- public CellRect WaterUseRect()
+ 	public CellRect WaterUseRect()
 	{
 		return WaterUseRect(parent.Position, parent.Rotation);
 	}
@@ -162,7 +162,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 			yield return item;
 		}
 	}
-public IEnumerable<IntVec3> GroundCells()
+	public IEnumerable<IntVec3> GroundCells()
 	{
 		return GroundCells(parent.Position, parent.Rotation);
 	}
@@ -180,7 +180,7 @@ public IEnumerable<IntVec3> GroundCells()
 		yield return loc + rot.FacingCell - perpOffset;
 		yield return loc + rot.FacingCell + perpOffset;
 	}
-public override void PostDraw()
+	public override void PostDraw()
 	{
 		base.PostDraw();
 		Vector3 vector = parent.TrueCenter();
