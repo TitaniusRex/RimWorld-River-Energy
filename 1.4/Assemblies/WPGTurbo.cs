@@ -137,5 +137,18 @@ public IEnumerable<IntVec3> WaterCells()
 		yield return loc + rot.FacingCell * 3 + perpOffset;
 		yield return loc + rot.FacingCell * 3 + perpOffset * 2;
 	}
+ public CellRect WaterUseRect()
+	{
+		return WaterUseRect(parent.Position, parent.Rotation);
+	}
+
+	public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
+	{
+		int width = (rot.IsHorizontal ? 7 : 13);
+		int height = (rot.IsHorizontal ? 13 : 7);
+		return CellRect.CenteredOn(loc + rot.FacingCell * 4, width, height);
+	}
+
+ 
 
  
