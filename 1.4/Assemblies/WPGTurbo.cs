@@ -38,7 +38,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		}
 	}
 
- public static class ThingDefOf
+        public static class ThingDefOf
 	{ public static ThingDef WWPGTHydroelectricPowerStation; }
 
 	public override void PostSpawnSetup(bool respawningAfterLoad)
@@ -106,7 +106,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		}
 		cacheDirty = false;
 	}
-private void ForceOthersToRebuildCache(Map map)
+	private void ForceOthersToRebuildCache(Map map)
 	{
 		foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
 		{
@@ -123,7 +123,7 @@ private void ForceOthersToRebuildCache(Map map)
 		}
 	}
 
-public IEnumerable<IntVec3> WaterCells()
+	public IEnumerable<IntVec3> WaterCells()
 	{
 		return WaterCells(parent.Position, parent.Rotation);
 	}
