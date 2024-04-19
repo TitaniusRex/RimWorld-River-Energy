@@ -231,4 +231,23 @@ public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 
 	public static readonly Material BladesMat = MaterialPool.MatFrom("Things/Building/Power/SmollWaterGenerator/SmollWaterGeneratorBlades");
 
- 
+ protected override float DesiredPowerOutput
+	{
+		get
+		{
+			if (cacheDirty)
+			{
+				RebuildCache();
+			}
+			if (!waterUsable)
+			{
+				return 0f;
+			}
+			if (waterDoubleUsed)
+			{
+				return base.DesiredPowerOutput * 0.3f;
+			}
+			return base.DesiredPowerOutput;
+		}
+	}
+
