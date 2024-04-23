@@ -208,9 +208,11 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	}
 }
 
-[StaticConstructorOnStartup]
-public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
-{
+
+
+	[StaticConstructorOnStartup]
+	public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
+	{
 	private float spinPosition;
 
 	private bool cacheDirty = true;
@@ -231,7 +233,7 @@ public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 
 	public static readonly Material BladesMat = MaterialPool.MatFrom("Things/Building/Power/SmollWaterGenerator/SmollWaterGeneratorBlades");
 
- protected override float DesiredPowerOutput
+ 	protected override float DesiredPowerOutput
 	{
 		get
 		{
