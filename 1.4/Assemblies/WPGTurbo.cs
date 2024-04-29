@@ -275,7 +275,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		cacheDirty = true;
 	}
 
-private void RebuildCache()
+        private void RebuildCache()
 	{
 		waterUsable = true;
 
