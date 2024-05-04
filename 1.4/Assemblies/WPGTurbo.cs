@@ -411,3 +411,13 @@ public IEnumerable<IntVec3> WaterUseCells()
 	}
 
  
+	public override string CompInspectStringExtra()
+	{
+		string text = base.CompInspectStringExtra();
+		if (waterUsable && waterDoubleUsed)
+		{
+			text += "\n" + "Watermill_WaterUsedTwice".Translate();
+		}
+		return text;
+	}
+}
