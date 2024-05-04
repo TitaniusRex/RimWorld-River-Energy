@@ -359,3 +359,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		int height = (rot.IsHorizontal ? 32 : 1);
 		return CellRect.CenteredOn(loc + rot.FacingCell * 1, width, height);
 	}
+ 
+public IEnumerable<IntVec3> WaterUseCells()
+	{
+		return WaterUseCells(parent.Position, parent.Rotation);
+	}
