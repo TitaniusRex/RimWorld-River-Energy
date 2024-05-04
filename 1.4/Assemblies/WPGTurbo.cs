@@ -372,3 +372,10 @@ public IEnumerable<IntVec3> WaterUseCells()
 			yield return item;
 		}
 	}
+
+ 	public IEnumerable<IntVec3> GroundCells()
+	{
+		return GroundCells(parent.Position, parent.Rotation);
+	}
+
+ 
