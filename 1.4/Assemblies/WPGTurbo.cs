@@ -332,7 +332,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 			spinPosition = (spinPosition + 1f / 150f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
 		}
 	}
- public IEnumerable<IntVec3> WaterCells()
+ 
+ 	public IEnumerable<IntVec3> WaterCells()
 	{
 		return WaterCells(parent.Position, parent.Rotation);
 	}
