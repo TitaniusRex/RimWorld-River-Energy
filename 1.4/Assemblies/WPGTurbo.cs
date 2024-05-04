@@ -391,3 +391,23 @@ public IEnumerable<IntVec3> WaterUseCells()
 		yield return loc + rot.FacingCell - perpOffset;
 		yield return loc + rot.FacingCell + perpOffset;
 	}
+
+ public override void PostDraw()
+	{
+		base.PostDraw();
+		Vector3 vector = parent.TrueCenter();
+		vector += parent.Rotation.FacingCell.ToVector3() * 0f;
+		for (int i = 0; i < 9; i++)
+		{
+			float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
+			float x = Mathf.Abs(4f * Mathf.Sin(num));
+			bool num2 = num % ((float)Math.PI * 2f) < (float)Math.PI;
+			Vector2 vector2 = new Vector2(x, 1f);
+			Vector3 s = new Vector3(vector2.x, 1f, vector2.y);
+			Matrix4x4 matrix = default(Matrix4x4);
+			matrix.SetTRS(vector + Vector3.up * (3f / 3f) * Mathf.Cos(num), parent.Rotation.AsQuat, s);
+			Graphics.DrawMesh(num2 ? MeshPool.plane10 : MeshPool.plane10Flip, matrix, BladesMat, 0);
+		}
+	}
+
+ 
