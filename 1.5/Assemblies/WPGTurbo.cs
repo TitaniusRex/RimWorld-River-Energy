@@ -124,3 +124,8 @@ public override void PostDeSpawn(Map map)
 			spinPosition = (spinPosition + 1f / 150f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
 		}
 	}
+
+	public IEnumerable<IntVec3> WaterCells()
+	{
+		return WaterCells(parent.Position, parent.Rotation);
+	}
