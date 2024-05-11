@@ -58,3 +58,13 @@ public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 		ForceOthersToRebuildCache(parent.Map);
 	}
 
+public override void PostDeSpawn(Map map)
+	{
+		base.PostDeSpawn(map);
+		ForceOthersToRebuildCache(map);
+	}
+
+	private void ClearCache()
+	{
+		cacheDirty = true;
+	}
