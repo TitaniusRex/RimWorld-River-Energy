@@ -152,3 +152,8 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		int height = (rot.IsHorizontal ? 32 : 1);
 		return CellRect.CenteredOn(loc + rot.FacingCell * 1, width, height);
 	}
+ 
+ public IEnumerable<IntVec3> WaterUseCells()
+	{
+		
+	}
