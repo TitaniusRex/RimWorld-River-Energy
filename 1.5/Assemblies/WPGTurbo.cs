@@ -155,5 +155,5 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
  
  public IEnumerable<IntVec3> WaterUseCells()
 	{
-		
+		return WaterUseCells(parent.Position, parent.Rotation);
 	}
