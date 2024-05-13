@@ -143,5 +143,5 @@ public override void PostDeSpawn(Map map)
  
  public CellRect WaterUseRect()
 	{
-		
+		return WaterUseRect(parent.Position, parent.Rotation);
 	}
