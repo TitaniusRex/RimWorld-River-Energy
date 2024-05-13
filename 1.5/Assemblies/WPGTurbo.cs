@@ -149,5 +149,6 @@ public override void PostDeSpawn(Map map)
 public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 	{
 		int width = (rot.IsHorizontal ? 1 : 32);
+		int height = (rot.IsHorizontal ? 32 : 1);
 		
 	}
