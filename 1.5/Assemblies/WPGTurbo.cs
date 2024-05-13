@@ -145,3 +145,8 @@ public override void PostDeSpawn(Map map)
 	{
 		return WaterUseRect(parent.Position, parent.Rotation);
 	}
+ 
+public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
+	{
+		
+	}
