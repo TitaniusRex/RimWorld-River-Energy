@@ -177,6 +177,11 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		yield return loc - rot.FacingCell + perpOffset;
 		yield return loc;
 		yield return loc - perpOffset;
+		yield return loc + perpOffset;
 
+
+
+
+  
 	}
  
