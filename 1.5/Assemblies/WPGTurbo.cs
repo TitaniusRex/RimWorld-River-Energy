@@ -167,6 +167,6 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 	}
  public IEnumerable<IntVec3> GroundCells()
 	{
-		
+		return GroundCells(parent.Position, parent.Rotation);
 	}
  
