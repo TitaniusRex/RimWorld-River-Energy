@@ -165,3 +165,8 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 			yield return item;
 		}
 	}
+ public IEnumerable<IntVec3> GroundCells()
+	{
+		
+	}
+ 
