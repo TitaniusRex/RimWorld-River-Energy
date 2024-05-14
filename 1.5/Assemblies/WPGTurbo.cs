@@ -172,6 +172,7 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
  public static IEnumerable<IntVec3> GroundCells(IntVec3 loc, Rot4 rot)
 	{
 		IntVec3 perpOffset = rot.Rotated(RotationDirection.Counterclockwise).FacingCell;
+		yield return loc - rot.FacingCell;
 		
 	}
  
