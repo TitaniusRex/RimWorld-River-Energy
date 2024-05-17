@@ -190,6 +190,8 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		vector += parent.Rotation.FacingCell.ToVector3() * 0f;
 		for (int i = 0; i < 9; i++)
 		{
+			float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
+			float x = Mathf.Abs(4f * Mathf.Sin(num));
 			
 		}
 	}
