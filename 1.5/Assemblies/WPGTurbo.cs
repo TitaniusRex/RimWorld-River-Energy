@@ -183,3 +183,9 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		yield return loc + rot.FacingCell + perpOffset;
 	}
  
+ public override void PostDraw()
+	{
+		base.PostDraw();
+		
+	}
+ 
