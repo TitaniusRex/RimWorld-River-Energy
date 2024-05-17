@@ -194,6 +194,8 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 			float x = Mathf.Abs(4f * Mathf.Sin(num));
 			bool num2 = num % ((float)Math.PI * 2f) < (float)Math.PI;
 			Vector2 vector2 = new Vector2(x, 1f);
+			Vector3 s = new Vector3(vector2.x, 1f, vector2.y);
+			Matrix4x4 matrix = default(Matrix4x4);
 			
 		}
 	}
