@@ -192,6 +192,8 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		{
 			float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
 			float x = Mathf.Abs(4f * Mathf.Sin(num));
+			bool num2 = num % ((float)Math.PI * 2f) < (float)Math.PI;
+			Vector2 vector2 = new Vector2(x, 1f);
 			
 		}
 	}
