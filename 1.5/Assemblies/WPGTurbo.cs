@@ -201,4 +201,5 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		}
 	}
  public override string CompInspectStringExtra()
-	
+	{
+		
