@@ -200,4 +200,5 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 			Graphics.DrawMesh(num2 ? MeshPool.plane10 : MeshPool.plane10Flip, matrix, BladesMat, 0);
 		}
 	}
- public override 
+ public override string CompInspectStringExtra()
+	
