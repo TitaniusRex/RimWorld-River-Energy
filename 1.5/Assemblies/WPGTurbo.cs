@@ -206,6 +206,7 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 	    if (waterUsable && waterDoubleUsed)
 		{
 			text += "\n" + "Watermill_WaterUsedTwice".Translate();
-
+		}
+		
 	
 		
