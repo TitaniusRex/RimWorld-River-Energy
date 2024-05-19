@@ -207,6 +207,6 @@ public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
 		{
 			text += "\n" + "Watermill_WaterUsedTwice".Translate();
 		}
-		
+		return text;
 	
 		
