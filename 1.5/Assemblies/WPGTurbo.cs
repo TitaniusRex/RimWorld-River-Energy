@@ -50,12 +50,11 @@ using Verse;
     public override void PostDeSpawn(Map map)
 	{
 	    base.PostDeSpawn(map);
-		ForceOthersToRebuildCache(map);
+	    ForceOthersToRebuildCache(map);
 	}
-
 	private void ClearCache()
 	{
-		cacheDirty = true;
+	    cacheDirty = true;
 	}
 
  private void RebuildCache()
