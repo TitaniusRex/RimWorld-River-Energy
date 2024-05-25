@@ -25,10 +25,10 @@ using Verse;
 	    if (cacheDirty)
 	    {
 	        RebuildCache();
-			}
-			if (!waterUsable)
-			{
-				return 0f;
+		}
+		    if (!waterUsable)
+		    {
+			return 0f;
 			}
 			if (waterDoubleUsed)
 			{
