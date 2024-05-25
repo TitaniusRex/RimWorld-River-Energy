@@ -38,13 +38,12 @@ using Verse;
 	}
     }
 
- public static class ThingDefOf
-	{ public static ThingDef WPGTSmollWaterGenerator; }
-
+    public static class ThingDefOf
+        { public static ThingDef WPGTSmollWaterGenerator; }
 	public override void PostSpawnSetup(bool respawningAfterLoad)
 	{
-		base.PostSpawnSetup(respawningAfterLoad);
-		spinPosition = Rand.Range(0f, 5f);
+	    base.PostSpawnSetup(respawningAfterLoad);
+	    spinPosition = Rand.Range(0f, 5f);
 		RebuildCache();
 		ForceOthersToRebuildCache(parent.Map);
 	}
