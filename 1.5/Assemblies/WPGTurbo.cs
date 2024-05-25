@@ -44,13 +44,12 @@ using Verse;
 	{
 	    base.PostSpawnSetup(respawningAfterLoad);
 	    spinPosition = Rand.Range(0f, 5f);
-		RebuildCache();
-		ForceOthersToRebuildCache(parent.Map);
+	    RebuildCache();
+	    ForceOthersToRebuildCache(parent.Map);
 	}
-
-public override void PostDeSpawn(Map map)
+    public override void PostDeSpawn(Map map)
 	{
-		base.PostDeSpawn(map);
+	    base.PostDeSpawn(map);
 		ForceOthersToRebuildCache(map);
 	}
 
