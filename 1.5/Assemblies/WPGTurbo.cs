@@ -21,10 +21,10 @@ using Verse;
     protected override float DesiredPowerOutput
     {
         get
+	{
+	    if (cacheDirty)
 	    {
-			if (cacheDirty)
-			{
-				RebuildCache();
+	        RebuildCache();
 			}
 			if (!waterUsable)
 			{
