@@ -30,13 +30,13 @@ using Verse;
 		    {
 			return 0f;
 			}
-			if (waterDoubleUsed)
-			{
-				return base.DesiredPowerOutput * 0.3f;
-			}
-			return base.DesiredPowerOutput;
-		}
+			    if (waterDoubleUsed)
+			    {
+			        return base.DesiredPowerOutput * 0.3f;
+			        }
+	return base.DesiredPowerOutput;
 	}
+    }
 
  public static class ThingDefOf
 	{ public static ThingDef WPGTSmollWaterGenerator; }
