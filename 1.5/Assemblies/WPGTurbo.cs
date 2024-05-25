@@ -18,10 +18,10 @@ using Verse;
 	private const int BladeCount = 12;
 	public static readonly Material BladesMat = MaterialPool.MatFrom("Things/Building/Power/SmollWaterGenerator/SmollWaterGeneratorBlades");
  
- protected override float DesiredPowerOutput
-	{
-		get
-		{
+    protected override float DesiredPowerOutput
+    {
+        get
+	    {
 			if (cacheDirty)
 			{
 				RebuildCache();
