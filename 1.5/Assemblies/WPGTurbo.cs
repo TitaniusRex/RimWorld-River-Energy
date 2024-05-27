@@ -64,11 +64,11 @@ using Verse;
 	    waterUsable = true;
      
 	    waterDoubleUsed = false;
-		List<Building> list = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator);
-		foreach (IntVec3 item2 in WaterUseCells())
+	    List<Building> list = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator);
+	    foreach (IntVec3 item2 in WaterUseCells())
+	    {
+		if (!item2.InBounds(parent.Map))
 		{
-			if (!item2.InBounds(parent.Map))
-			{
 				continue;
 			}
 			foreach (Building item3 in list)
