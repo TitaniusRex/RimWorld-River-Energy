@@ -77,11 +77,11 @@ using Verse;
 		    {
 			waterDoubleUsed = true;
 			break;
-				}
-			}
+		    }
 		}
-		if (!waterUsable)
-		{
+	    }
+	    if (!waterUsable)
+	    {
 			spinRate = 0f;
 			return;
 		}
