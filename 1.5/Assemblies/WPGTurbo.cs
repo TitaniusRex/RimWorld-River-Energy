@@ -101,10 +101,10 @@ using Verse;
 
 	private void ForceOthersToRebuildCache(Map map)
 	{
-		foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator))
-		{
-			item.GetComp<CompPowerPlantWPGTWaterSmoll>().ClearCache();
-		}
+	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator))
+	    {
+		item.GetComp<CompPowerPlantWPGTWaterSmoll>().ClearCache();
+	    }
 	}
  public override void CompTick()
 	{
