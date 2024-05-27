@@ -69,10 +69,10 @@ using Verse;
 	    {
 		if (!item2.InBounds(parent.Map))
 		{
-				continue;
-			}
-			foreach (Building item3 in list)
-			{
+		    continue;
+		}
+		foreach (Building item3 in list)
+		{
 				if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
 				{
 					waterDoubleUsed = true;
