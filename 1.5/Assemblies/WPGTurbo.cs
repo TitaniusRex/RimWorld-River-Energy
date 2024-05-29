@@ -62,7 +62,6 @@ using Verse;
     private void RebuildCache()
 	{
 	    waterUsable = true;
-     
 	    waterDoubleUsed = false;
 	    List<Building> list = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator);
 	    foreach (IntVec3 item2 in WaterUseCells())
