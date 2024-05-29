@@ -130,7 +130,7 @@ using Verse;
 	    yield return loc + rot.FacingCell * 3 + perpOffset * 2;
 	}
  
- public CellRect WaterUseRect()
+ 	public CellRect WaterUseRect()
 	{
 		return WaterUseRect(parent.Position, parent.Rotation);
 	}
