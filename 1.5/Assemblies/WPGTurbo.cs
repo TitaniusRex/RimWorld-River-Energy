@@ -146,11 +146,11 @@ using Verse;
 	    return WaterUseCells(parent.Position, parent.Rotation);
 	}
  
- public static IEnumerable<IntVec3> WaterUseCells(IntVec3 loc, Rot4 rot)
+ 	public static IEnumerable<IntVec3> WaterUseCells(IntVec3 loc, Rot4 rot)
 	{
-		foreach (IntVec3 item in WaterUseRect(loc, rot))
+	    foreach (IntVec3 item in WaterUseRect(loc, rot))
 		{
-			yield return item;
+		    yield return item;
 		}
 	}
  public IEnumerable<IntVec3> GroundCells()
