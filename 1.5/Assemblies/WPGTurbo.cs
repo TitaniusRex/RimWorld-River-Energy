@@ -106,13 +106,13 @@ using Verse;
 		item.GetComp<CompPowerPlantWPGTWaterSmoll>().ClearCache();
 	    }
 	}
- public override void CompTick()
+ 	public override void CompTick()
 	{
-		base.CompTick();
-		if (base.PowerOutput > 0.01f)
-		{
-			spinPosition = (spinPosition + 1f / 150f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
-		}
+	    base.CompTick();
+	    if (base.PowerOutput > 0.01f)
+	    {
+		spinPosition = (spinPosition + 1f / 150f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
+	    }
 	}
 
 	public IEnumerable<IntVec3> WaterCells()
