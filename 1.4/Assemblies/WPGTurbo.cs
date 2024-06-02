@@ -43,8 +43,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 
 	public override void PostSpawnSetup(bool respawningAfterLoad)
 	{
-		base.PostSpawnSetup(respawningAfterLoad);
-		spinPosition = Rand.Range(0f, 5f);
+	    base.PostSpawnSetup(respawningAfterLoad);
+	    spinPosition = Rand.Range(0f, 5f);
 		RebuildCache();
 		ForceOthersToRebuildCache(parent.Map);
 	}
