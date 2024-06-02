@@ -20,8 +20,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
  
 	protected override float DesiredPowerOutput
 	{
-		get
-		{
+	    get
+	    {
 			if (cacheDirty)
 			{
 				RebuildCache();
