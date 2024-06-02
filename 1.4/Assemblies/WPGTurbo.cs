@@ -22,8 +22,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	{
 	    get
 	    {
-			if (cacheDirty)
-			{
+		if (cacheDirty)
+		{
 				RebuildCache();
 			}
 			if (!waterUsable)
