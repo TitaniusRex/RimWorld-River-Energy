@@ -28,8 +28,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		}
 		if (!waterUsable)
 		{
-				return 0f;
-			}
+	            return 0f;
+		}
 			if (waterDoubleUsed)
 			{
 				return base.DesiredPowerOutput * 0.3f;
