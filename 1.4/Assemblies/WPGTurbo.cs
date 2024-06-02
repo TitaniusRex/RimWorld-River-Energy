@@ -34,7 +34,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		{
 		    return base.DesiredPowerOutput * 0.3f;
 		}
-			return base.DesiredPowerOutput;
+		return base.DesiredPowerOutput;
 		}
 	}
 
