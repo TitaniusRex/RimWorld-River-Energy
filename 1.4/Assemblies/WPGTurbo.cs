@@ -51,8 +51,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 
 	public override void PostDeSpawn(Map map)
 	{
-		base.PostDeSpawn(map);
-		ForceOthersToRebuildCache(map);
+	    base.PostDeSpawn(map);
+	    ForceOthersToRebuildCache(map);
 	}
 
 	private void ClearCache()
