@@ -57,15 +57,15 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 
 	private void ClearCache()
 	{
-		cacheDirty = true;
+	    cacheDirty = true;
 	}
 
  	private void RebuildCache()
 	{
-		waterUsable = true;
-		foreach (IntVec3 item in WaterCells())
-		{
-			if (item.InBounds(parent.Map) && !parent.Map.terrainGrid.TerrainAt(item).affordances.Contains(TerrainAffordanceDefOf.MovingFluid))
+	    waterUsable = true;
+	    foreach (IntVec3 item in WaterCells())
+	    {
+		if (item.InBounds(parent.Map) && !parent.Map.terrainGrid.TerrainAt(item).affordances.Contains(TerrainAffordanceDefOf.MovingFluid))
 			{
 				waterUsable = false;
 				break;
