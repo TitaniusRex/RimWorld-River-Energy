@@ -77,11 +77,11 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    {
 		if (!item2.InBounds(parent.Map))
 		{
-		     continue;
+		    continue;
 		}
-			foreach (Building item3 in enumerable)
-			{
-				if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
+		foreach (Building item3 in enumerable)
+		{
+		    if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
 				{
 					waterDoubleUsed = true;
 					break;
