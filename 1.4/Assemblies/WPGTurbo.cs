@@ -69,10 +69,10 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		    {
 			waterUsable = false;
 			break;
-			}
-		}
-		waterDoubleUsed = false;
-		IEnumerable<Building> enumerable = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation);
+		    }
+	    }
+	    waterDoubleUsed = false;
+	    IEnumerable<Building> enumerable = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation);
 		foreach (IntVec3 item2 in WaterUseCells())
 		{
 			if (!item2.InBounds(parent.Map))
