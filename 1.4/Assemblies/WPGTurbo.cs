@@ -66,10 +66,10 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    foreach (IntVec3 item in WaterCells())
 	    {
 		if (item.InBounds(parent.Map) && !parent.Map.terrainGrid.TerrainAt(item).affordances.Contains(TerrainAffordanceDefOf.MovingFluid))
-		    {
-			waterUsable = false;
-			break;
-		    }
+		{
+		    waterUsable = false;
+		    break;
+		}
 	    }
 	    waterDoubleUsed = false;
 	    IEnumerable<Building> enumerable = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation);
