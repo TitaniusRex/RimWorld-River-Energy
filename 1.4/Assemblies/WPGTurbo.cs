@@ -86,8 +86,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 		        waterDoubleUsed = true;
 			break;
 		    }
-			}
 		}
+	    }
 		if (!waterUsable)
 		{
 			spinRate = 0f;
