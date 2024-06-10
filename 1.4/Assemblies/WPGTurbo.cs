@@ -109,7 +109,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	private void ForceOthersToRebuildCache(Map map)
 	{
 	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
-		{
+	    {
 			item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
 		}
 	}
