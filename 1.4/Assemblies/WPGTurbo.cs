@@ -110,8 +110,8 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	{
 	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
 	    {
-			item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
-		}
+		item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
+	    }
 	}
 
 	public override void CompTick()
