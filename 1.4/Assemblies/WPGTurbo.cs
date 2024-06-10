@@ -118,9 +118,9 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	{
 	    base.CompTick();
 	    if (base.PowerOutput > 0.01f)
-		{
-		    spinPosition = (spinPosition + 1f / 100f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
-		}
+	    {
+		spinPosition = (spinPosition + 1f / 100f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
+	    }
 	}
 
 	public IEnumerable<IntVec3> WaterCells()
