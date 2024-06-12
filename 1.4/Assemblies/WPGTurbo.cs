@@ -146,7 +146,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	{
 	    int width = (rot.IsHorizontal ? 7 : 13);
 	    int height = (rot.IsHorizontal ? 13 : 7);
-		return CellRect.CenteredOn(loc + rot.FacingCell * 4, width, height);
+	    return CellRect.CenteredOn(loc + rot.FacingCell * 4, width, height);
 	}
 
  
