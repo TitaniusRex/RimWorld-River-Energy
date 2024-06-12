@@ -119,7 +119,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    base.CompTick();
 	    if (base.PowerOutput > 0.01f)
 	    {
-		spinPosition = (spinPosition + 1f / 100f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
+	        spinPosition = (spinPosition + 1f / 100f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
 	    }
 	}
 
@@ -139,7 +139,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	}
  	public CellRect WaterUseRect()
 	{
-		return WaterUseRect(parent.Position, parent.Rotation);
+	    return WaterUseRect(parent.Position, parent.Rotation);
 	}
 
 	public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
