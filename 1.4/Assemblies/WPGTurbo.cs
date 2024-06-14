@@ -159,7 +159,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	{
 	    foreach (IntVec3 item in WaterUseRect(loc, rot))
 		{
-			yield return item;
+		yield return item;
 		}
 	}
 	public IEnumerable<IntVec3> GroundCells()
