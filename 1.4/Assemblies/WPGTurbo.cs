@@ -185,7 +185,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    base.PostDraw();
 	    Vector3 vector = parent.TrueCenter();
 	    vector += parent.Rotation.FacingCell.ToVector3() * 0f;
-		for (int i = 0; i < 9; i++)
+	    for (int i = 0; i < 9; i++)
 		{
 			float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
 			float x = Mathf.Abs(4f * Mathf.Sin(num));
