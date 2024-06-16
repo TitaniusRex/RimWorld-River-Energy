@@ -175,7 +175,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    yield return loc - rot.FacingCell + perpOffset;
 	    yield return loc;
 	    yield return loc - perpOffset;
-		yield return loc + perpOffset;
+	    yield return loc + perpOffset;
 	    yield return loc + rot.FacingCell;
 		yield return loc + rot.FacingCell - perpOffset;
 		yield return loc + rot.FacingCell + perpOffset;
