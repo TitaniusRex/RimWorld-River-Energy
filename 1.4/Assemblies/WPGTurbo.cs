@@ -195,7 +195,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 			Matrix4x4 matrix = default(Matrix4x4);
 			matrix.SetTRS(vector + Vector3.up * (3f / 74f) * Mathf.Cos(num), parent.Rotation.AsQuat, s);
 			Graphics.DrawMesh(num2 ? MeshPool.plane10 : MeshPool.plane10Flip, matrix, BladesMat, 0);
-		}
+	    }
 	}
  	public override string CompInspectStringExtra()
 	{
