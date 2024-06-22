@@ -202,7 +202,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    string text = base.CompInspectStringExtra();
 	    if (waterUsable && waterDoubleUsed)
 	    {
-			text += "\n" + "Watermill_WaterUsedTwice".Translate();
+		text += "\n" + "Watermill_WaterUsedTwice".Translate();
 		}
 		return text;
 	}
