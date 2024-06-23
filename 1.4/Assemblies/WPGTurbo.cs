@@ -203,7 +203,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 	    if (waterUsable && waterDoubleUsed)
 	    {
 		text += "\n" + "Watermill_WaterUsedTwice".Translate();
-		}
+	    }
 		return text;
 	}
 }
