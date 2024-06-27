@@ -210,7 +210,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
 
 
 
-	[StaticConstructorOnStartup]
+    [StaticConstructorOnStartup]
 	public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 	{
 	private float spinPosition;
