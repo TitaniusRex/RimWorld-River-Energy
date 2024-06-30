@@ -213,7 +213,7 @@ public class CompPowerPlantWPGTWater : CompPowerPlant
     [StaticConstructorOnStartup]
 	public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 	{
-	private float spinPosition;
+	    private float spinPosition;
 
 	private bool cacheDirty = true;
 
