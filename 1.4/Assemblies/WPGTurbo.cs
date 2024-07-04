@@ -4,7 +4,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-[StaticConstructorOnStartup]
+    [StaticConstructorOnStartup]
 public class CompPowerPlantWPGTWater : CompPowerPlant
 {
     private float spinPosition;
