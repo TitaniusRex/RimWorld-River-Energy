@@ -5,7 +5,7 @@ using UnityEngine;
 using Verse;
 
     [StaticConstructorOnStartup]
-public class CompPowerPlantWPGTWater : CompPowerPlant
+    public class CompPowerPlantWPGTWater : CompPowerPlant
 {
     private float spinPosition;
 	private bool cacheDirty = true;
