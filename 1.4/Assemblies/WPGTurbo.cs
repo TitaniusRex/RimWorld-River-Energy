@@ -6,7 +6,7 @@ using Verse;
 
     [StaticConstructorOnStartup]
     public class CompPowerPlantWPGTWater : CompPowerPlant
-{
+    {
     private float spinPosition;
 	private bool cacheDirty = true;
 	private bool waterUsable;
