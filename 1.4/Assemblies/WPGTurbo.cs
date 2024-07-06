@@ -215,8 +215,7 @@ using Verse;
 	{
 	    private float spinPosition;
 	    private bool cacheDirty = true;
-
-	private bool waterUsable;
+	    private bool waterUsable;
 
 	private bool waterDoubleUsed;
 
