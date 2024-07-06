@@ -214,8 +214,7 @@ using Verse;
 	public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
 	{
 	    private float spinPosition;
-
-	private bool cacheDirty = true;
+	    private bool cacheDirty = true;
 
 	private bool waterUsable;
 
