@@ -23,9 +23,7 @@ using Verse;
 	    get
 	    {
 		if (cacheDirty)
-		{
-		    RebuildCache();
-		}
+		{ RebuildCache();}
 		if (!waterUsable)
 		{
 	            return 0f;
