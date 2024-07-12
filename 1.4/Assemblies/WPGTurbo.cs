@@ -100,6 +100,7 @@ using Verse;
 		}
 		cacheDirty = false;
 	}
+ 
 	private void ForceOthersToRebuildCache(Map map)
 	{
 	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
