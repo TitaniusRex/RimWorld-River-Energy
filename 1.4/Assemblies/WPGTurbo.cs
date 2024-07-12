@@ -50,9 +50,7 @@ using Verse;
 	}
 
 	private void ClearCache()
-	{
-	    cacheDirty = true;
-	}
+	{cacheDirty = true; }
 
  	private void RebuildCache()
 	{
