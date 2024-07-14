@@ -80,8 +80,8 @@ using Verse;
 	    }
 	    if (!waterUsable)
 	    {
-		    spinRate = 0f;
-		    return;
+		spinRate = 0f;
+		return;
 	    }
 		Vector3 zero = Vector3.zero;
 		foreach (IntVec3 item4 in WaterCells())
