@@ -194,6 +194,7 @@ using Verse;
 	}
 }
 
+——————————————————————————————————————————————————————————————————————————————————————————
 
     [StaticConstructorOnStartup]
 	public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
