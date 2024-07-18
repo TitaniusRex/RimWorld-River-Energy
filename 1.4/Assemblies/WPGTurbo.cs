@@ -198,7 +198,7 @@ using Verse;
 
     [StaticConstructorOnStartup]
     public class CompPowerPlantWPGTWaterSmoll : CompPowerPlant
-	{
+    {
 	    private float spinPosition;
 	    private bool cacheDirty = true;
 	    private bool waterUsable;
