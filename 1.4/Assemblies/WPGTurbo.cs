@@ -113,9 +113,7 @@ using Verse;
 	}
 
 	public IEnumerable<IntVec3> WaterCells()
-	{
-	    return WaterCells(parent.Position, parent.Rotation);
-	}
+	{return WaterCells(parent.Position, parent.Rotation); }
 
 	public static IEnumerable<IntVec3> WaterCells(IntVec3 loc, Rot4 rot)
 	{
