@@ -201,7 +201,7 @@ using Verse;
 	private bool cacheDirty = true;
 	private bool waterUsable;
 	private bool waterDoubleUsed;
-	    private float spinRate = 1f;
+	private float spinRate = 1f;
 	    private const float PowerFactorIfWaterDoubleUsed = 0.3f;
 	    private const float SpinRateFactor = 1f / 100f;
             private const float BladeOffset = 1f;
