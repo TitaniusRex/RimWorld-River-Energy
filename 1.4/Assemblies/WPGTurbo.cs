@@ -200,7 +200,7 @@ using Verse;
         private float spinPosition;
 	private bool cacheDirty = true;
 	private bool waterUsable;
-	    private bool waterDoubleUsed;
+	private bool waterDoubleUsed;
 	    private float spinRate = 1f;
 	    private const float PowerFactorIfWaterDoubleUsed = 0.3f;
 	    private const float SpinRateFactor = 1f / 100f;
