@@ -213,7 +213,7 @@ using Verse;
  	protected override float DesiredPowerOutput
 	{
 	    get
-		{
+	    {
 			if (cacheDirty)
 			{
 				RebuildCache();
