@@ -215,7 +215,7 @@ using Verse;
 	    get
 	    {
 		if (cacheDirty)
-			{
+		{
 				RebuildCache();
 			}
 			if (!waterUsable)
