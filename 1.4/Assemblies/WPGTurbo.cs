@@ -209,7 +209,7 @@ using Verse;
 	    {
 		if (cacheDirty)
 		{
-				RebuildCache();
+		    RebuildCache();
 			}
 			if (!waterUsable)
 			{
