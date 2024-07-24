@@ -217,7 +217,7 @@ using Verse;
 			}
 			if (waterDoubleUsed)
 			{
-				return base.DesiredPowerOutput * 0.3f;
+			    return base.DesiredPowerOutput * 0.3f;
 			}
 			return base.DesiredPowerOutput;
 		}
