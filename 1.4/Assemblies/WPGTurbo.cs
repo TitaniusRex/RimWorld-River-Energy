@@ -89,9 +89,7 @@ using Verse;
 		spinRate = Mathf.Sign(Vector3.Dot(zero, parent.Rotation.Rotated(RotationDirection.Clockwise).FacingCell.ToVector3()));
 		spinRate *= Rand.RangeSeeded(2.4f, 2.6f, parent.thingIDNumber * 60509 + 33151);
 		if (waterDoubleUsed)
-		{
-		    spinRate *= 0.5f;
-		}
+		{ spinRate *= 0.5f; }
 		cacheDirty = false;
 	}
  
