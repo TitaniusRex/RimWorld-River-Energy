@@ -211,9 +211,9 @@ using Verse;
 		{
 		    RebuildCache();
 		    }
-			if (!waterUsable)
+		        if (!waterUsable)
 			{
-				return 0f;
+			    return 0f;
 			}
 			if (waterDoubleUsed)
 			{
