@@ -232,7 +232,7 @@ using Verse;
 
 	public override void PostDeSpawn(Map map)
 	{
-		base.PostDeSpawn(map);
+	    base.PostDeSpawn(map);
 		ForceOthersToRebuildCache(map);
 	}
 
