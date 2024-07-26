@@ -226,7 +226,7 @@ using Verse;
 	{
 	    base.PostSpawnSetup(respawningAfterLoad);
 	    spinPosition = Rand.Range(0f, 5f);
-		RebuildCache();
+	    RebuildCache();
 		ForceOthersToRebuildCache(parent.Map);
 	}
 
