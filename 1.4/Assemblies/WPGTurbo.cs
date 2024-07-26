@@ -225,7 +225,7 @@ using Verse;
 	public override void PostSpawnSetup(bool respawningAfterLoad)
 	{
 	    base.PostSpawnSetup(respawningAfterLoad);
-		spinPosition = Rand.Range(0f, 5f);
+	    spinPosition = Rand.Range(0f, 5f);
 		RebuildCache();
 		ForceOthersToRebuildCache(parent.Map);
 	}
