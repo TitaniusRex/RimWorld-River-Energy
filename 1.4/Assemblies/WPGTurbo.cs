@@ -19,7 +19,7 @@ using Verse;
 	public static readonly Material BladesMat = MaterialPool.MatFrom("Things/Building/Power/WaterPowerGenerator/HydroelectricPowerStationBlades");
  
 	protected override float DesiredPowerOutput
-	{
+        {
 	    get
 	    {
 		if (cacheDirty)
