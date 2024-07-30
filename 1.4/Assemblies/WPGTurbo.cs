@@ -128,7 +128,6 @@ using Verse;
 	    int height = (rot.IsHorizontal ? 13 : 7);
 	    return CellRect.CenteredOn(loc + rot.FacingCell * 4, width, height);
 	}
-
  
 	public IEnumerable<IntVec3> WaterUseCells()
 	{ return WaterUseCells(parent.Position, parent.Rotation); }
