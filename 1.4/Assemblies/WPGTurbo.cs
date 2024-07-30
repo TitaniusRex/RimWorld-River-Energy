@@ -336,7 +336,7 @@ using Verse;
 
  	public IEnumerable<IntVec3> GroundCells()
 	{
-		return GroundCells(parent.Position, parent.Rotation);
+	    return GroundCells(parent.Position, parent.Rotation);
 	}
 
  	public static IEnumerable<IntVec3> GroundCells(IntVec3 loc, Rot4 rot)
