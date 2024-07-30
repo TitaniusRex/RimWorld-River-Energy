@@ -96,8 +96,7 @@ using Verse;
 	private void ForceOthersToRebuildCache(Map map)
 	{
 	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WWPGTHydroelectricPowerStation))
-	    {
-		item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
+	    {item.GetComp<CompPowerPlantWPGTWater>().ClearCache();
 	    }
 	}
 
