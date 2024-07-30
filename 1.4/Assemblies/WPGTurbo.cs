@@ -236,7 +236,7 @@ using Verse;
 
         private void RebuildCache()
 	{
-		waterUsable = true;
+	    waterUsable = true;
 
 		waterDoubleUsed = false;
 
