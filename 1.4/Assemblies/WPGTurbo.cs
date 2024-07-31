@@ -242,7 +242,7 @@ using Verse;
 	    IEnumerable<Building> enumerable = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator);
 	    foreach (IntVec3 item2 in WaterUseCells())
 	    {
-			if (!item2.InBounds(parent.Map))
+		if (!item2.InBounds(parent.Map))
 			{
 				continue;
 			}
