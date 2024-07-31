@@ -245,7 +245,7 @@ using Verse;
 		if (!item2.InBounds(parent.Map))
 		{
 		    continue;
-			}
+		    }
 			foreach (Building item3 in enumerable)
 			{
 				if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
