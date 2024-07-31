@@ -237,7 +237,6 @@ using Verse;
         private void RebuildCache()
 	{
 	    waterUsable = true;
-
 	    waterDoubleUsed = false;
 
 		IEnumerable<Building> enumerable = parent.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator);
