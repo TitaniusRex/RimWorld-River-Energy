@@ -251,7 +251,7 @@ using Verse;
 			if (item3 != parent && item3.GetComp<CompPowerPlantWPGTWater>().WaterUseRect().Contains(item2))
 			{
 			    waterDoubleUsed = true;
-			break;
+			    break;
 				}
 			}
 		}
