@@ -253,7 +253,7 @@ using Verse;
 			    waterDoubleUsed = true;
 			    break;
 			}
-			}
+		    }
 		}
 		if (!waterUsable)
 		{
