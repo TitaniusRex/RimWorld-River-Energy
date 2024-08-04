@@ -244,7 +244,7 @@ using Verse;
 	    {
 		if (!item2.InBounds(parent.Map))
 		{
-		    continue;
+		continue;
 		    }
 		    foreach (Building item3 in enumerable)
 		    {
