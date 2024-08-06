@@ -206,7 +206,7 @@ using Verse;
 		{RebuildCache(); }
 		if (!waterUsable)
 		{ return 0f; }
-			if (waterDoubleUsed)
+		if (waterDoubleUsed)
 			{ return base.DesiredPowerOutput * 0.3f; }
 			return base.DesiredPowerOutput;
 		}
