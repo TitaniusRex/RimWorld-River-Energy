@@ -251,7 +251,8 @@ using Verse;
 		    }
 		}
 	    }
-		if (!waterUsable)
+     
+	    if (!waterUsable)
 		{
 		    spinRate = 0f;
 		    return;
