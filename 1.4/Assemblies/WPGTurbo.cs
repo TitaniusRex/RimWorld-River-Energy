@@ -253,7 +253,7 @@ using Verse;
 	    }
      
 	    if (!waterUsable)
-		{
+	    {
 		    spinRate = 0f;
 		    return;
 		}
