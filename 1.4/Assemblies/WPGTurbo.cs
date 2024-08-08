@@ -257,7 +257,7 @@ using Verse;
 	        spinRate = 0f;
 		return;
 	    }
-		Vector3 zero = Vector3.zero;
+	    Vector3 zero = Vector3.zero;
 		foreach (IntVec3 item4 in WaterCells())
 		{
 		    zero += parent.Map.waterInfo.GetWaterMovement(item4.ToVector3Shifted());
