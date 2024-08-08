@@ -254,7 +254,7 @@ using Verse;
      
 	    if (!waterUsable)
 	    {
-		    spinRate = 0f;
+	        spinRate = 0f;
 		    return;
 		}
 		Vector3 zero = Vector3.zero;
