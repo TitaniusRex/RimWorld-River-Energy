@@ -281,7 +281,7 @@ using Verse;
 
 	public override void CompTick()
 	{
-		base.CompTick();
+	    base.CompTick();
 		if (base.PowerOutput > 0.01f)
 		{
 			spinPosition = (spinPosition + 1f / 150f * spinRate + (float)Math.PI * 2f) % ((float)Math.PI * 2f);
