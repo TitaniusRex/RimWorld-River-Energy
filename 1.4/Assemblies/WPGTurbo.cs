@@ -266,7 +266,7 @@ using Verse;
 	    spinRate *= Rand.RangeSeeded(0.4f, 0.6f, parent.thingIDNumber * 60509 + 33151);
 	    if (waterDoubleUsed)
 	    {
-			spinRate *= 0.5f;
+		spinRate *= 0.5f;
 		}
 		cacheDirty = false;
 	}
