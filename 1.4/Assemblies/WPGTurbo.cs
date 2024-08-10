@@ -262,7 +262,7 @@ using Verse;
 	    {
 		zero += parent.Map.waterInfo.GetWaterMovement(item4.ToVector3Shifted());
 	    }
-		spinRate = Mathf.Sign(Vector3.Dot(zero, parent.Rotation.Rotated(RotationDirection.Clockwise).FacingCell.ToVector3()));
+	    spinRate = Mathf.Sign(Vector3.Dot(zero, parent.Rotation.Rotated(RotationDirection.Clockwise).FacingCell.ToVector3()));
 		spinRate *= Rand.RangeSeeded(0.4f, 0.6f, parent.thingIDNumber * 60509 + 33151);
 		if (waterDoubleUsed)
 		{
