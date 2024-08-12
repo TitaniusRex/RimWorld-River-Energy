@@ -269,7 +269,7 @@ using Verse;
 
 	private void ForceOthersToRebuildCache(Map map)
 	{
-		foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator))
+	    foreach (Building item in map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.WPGTSmollWaterGenerator))
 		{
 			item.GetComp<CompPowerPlantWPGTWaterSmoll>().ClearCache();
 		}
