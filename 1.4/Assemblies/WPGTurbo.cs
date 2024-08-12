@@ -265,7 +265,7 @@ using Verse;
 	    if (waterDoubleUsed)
 	    {
 		spinRate *= 0.5f;
-		}
+	    }
 		cacheDirty = false;
 	}
 
