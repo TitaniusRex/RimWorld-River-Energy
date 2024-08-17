@@ -301,7 +301,7 @@ using Verse;
 	{
 	    int width = (rot.IsHorizontal ? 1 : 32);
 	    int height = (rot.IsHorizontal ? 32 : 1);
-		return CellRect.CenteredOn(loc + rot.FacingCell * 1, width, height);
+	    return CellRect.CenteredOn(loc + rot.FacingCell * 1, width, height);
 	}
  
 	public IEnumerable<IntVec3> WaterUseCells()
