@@ -295,8 +295,7 @@ using Verse;
 
  
 	public CellRect WaterUseRect()
-	{
-		return WaterUseRect(parent.Position, parent.Rotation);
+	{return WaterUseRect(parent.Position, parent.Rotation);
 	}
  
         public static CellRect WaterUseRect(IntVec3 loc, Rot4 rot)
