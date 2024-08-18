@@ -311,7 +311,7 @@ using Verse;
 	{
 	    foreach (IntVec3 item in WaterUseRect(loc, rot))
 	    {
-			yield return item;
+		yield return item;
 		}
 	}
 
