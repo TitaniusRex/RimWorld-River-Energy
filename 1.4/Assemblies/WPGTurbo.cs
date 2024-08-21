@@ -328,7 +328,7 @@ using Verse;
 	    yield return loc - perpOffset;
 	    yield return loc + perpOffset;
 	    yield return loc + rot.FacingCell;
-		yield return loc + rot.FacingCell - perpOffset;
+	    yield return loc + rot.FacingCell - perpOffset;
 		yield return loc + rot.FacingCell + perpOffset;
 	}
 
