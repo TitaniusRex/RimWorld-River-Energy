@@ -334,7 +334,7 @@ using Verse;
 
      public override void PostDraw()
 	{
-		base.PostDraw();
+	    base.PostDraw();
 		Vector3 vector = parent.TrueCenter();
 		vector += parent.Rotation.FacingCell.ToVector3() * 0f;
 		for (int i = 0; i < 9; i++)
