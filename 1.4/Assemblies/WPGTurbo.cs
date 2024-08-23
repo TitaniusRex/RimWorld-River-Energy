@@ -344,7 +344,7 @@ using Verse;
 		Vector2 vector2 = new Vector2(x, 1f);
 		Vector3 s = new Vector3(vector2.x, 1f, vector2.y);
 		Matrix4x4 matrix = default(Matrix4x4);
-			matrix.SetTRS(vector + Vector3.up * (3f / 3f) * Mathf.Cos(num), parent.Rotation.AsQuat, s);
+		matrix.SetTRS(vector + Vector3.up * (3f / 3f) * Mathf.Cos(num), parent.Rotation.AsQuat, s);
 			Graphics.DrawMesh(num2 ? MeshPool.plane10 : MeshPool.plane10Flip, matrix, BladesMat, 0);
 		}
 	}
