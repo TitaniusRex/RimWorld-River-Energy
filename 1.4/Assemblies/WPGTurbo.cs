@@ -330,7 +330,7 @@ using Verse;
 	    yield return loc + rot.FacingCell + perpOffset;
 	}
 
-     public override void PostDraw()
+        public override void PostDraw()
 	{
 	    base.PostDraw();
 	    Vector3 vector = parent.TrueCenter();
