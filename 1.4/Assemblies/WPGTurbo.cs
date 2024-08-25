@@ -355,7 +355,7 @@ using Verse;
 	    if (waterUsable && waterDoubleUsed)
 	    {
 		text += "\n" + "Watermill_WaterUsedTwice".Translate();
-		}
+	    }
 		return text;
 	}
 }
