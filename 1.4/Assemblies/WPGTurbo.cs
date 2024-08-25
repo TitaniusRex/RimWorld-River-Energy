@@ -356,6 +356,6 @@ using Verse;
 	    {
 		text += "\n" + "Watermill_WaterUsedTwice".Translate();
 	    }
-		return text;
+	    return text;
 	}
 }
