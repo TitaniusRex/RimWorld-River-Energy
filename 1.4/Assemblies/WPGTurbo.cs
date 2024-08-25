@@ -352,7 +352,7 @@ using Verse;
 	public override string CompInspectStringExtra()
 	{
 	    string text = base.CompInspectStringExtra();
-		if (waterUsable && waterDoubleUsed)
+	    if (waterUsable && waterDoubleUsed)
 		{
 			text += "\n" + "Watermill_WaterUsedTwice".Translate();
 		}
