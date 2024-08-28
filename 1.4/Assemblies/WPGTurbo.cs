@@ -351,4 +351,5 @@ using Verse;
 	public override string CompInspectStringExtra()
 	{
  		string text = base.CompInspectStringExtra();
+   			    if (waterUsable && waterDoubleUsed)
 }
