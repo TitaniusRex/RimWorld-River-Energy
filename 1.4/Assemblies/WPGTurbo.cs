@@ -348,6 +348,6 @@ using Verse;
 		}
 	}
 
-	public override 
- 
+	public override string CompInspectStringExtra()
+	{
 }
