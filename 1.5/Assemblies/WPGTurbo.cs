@@ -22,7 +22,7 @@ using Verse;
     {
         get
 	{
-	    if (cacheDirty)
+	if (cacheDirty)
 	    {
 	        RebuildCache();
 		}
