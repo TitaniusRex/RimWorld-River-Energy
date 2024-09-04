@@ -49,8 +49,7 @@ using Verse;
 	    ForceOthersToRebuildCache(map);
 	}
 	private void ClearCache()
-	{
-	    cacheDirty = true;
+	{ cacheDirty = true;
 	}
 
     private void RebuildCache()
