@@ -160,6 +160,7 @@ using Verse;
 		    Graphics.DrawMesh(num2 ? MeshPool.plane10 : MeshPool.plane10Flip, matrix, BladesMat, 0);
 		}
 	}
+ 
  	public override string CompInspectStringExtra()
 	{
 	    string text = base.CompInspectStringExtra();
