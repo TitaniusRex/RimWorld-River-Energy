@@ -48,8 +48,8 @@
 	    </li>
 	    <li Class="CompProperties_Power">
 		<compClass>CompPowerPlantWPGTWater</compClass>
-			<basePowerConsumption>-4800</basePowerConsumption>
-			<transmitsPower>true</transmitsPower>
+		<basePowerConsumption>-4800</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
 			<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 	    </li>
 		<li Class="CompProperties_Breakdownable"/>
