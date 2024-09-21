@@ -53,14 +53,14 @@
 		<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 	    </li>
 	    <li Class="CompProperties_Breakdownable"/>
-		<li Class="CompProperties_Flickable"/>
+	    <li Class="CompProperties_Flickable"/>
 	</comps>
 	<rotatable>true</rotatable>
 	<terrainAffordanceNeeded>MovingFluid</terrainAffordanceNeeded>
 	<designationCategory>Power</designationCategory>
 	<uiOrder>2500</uiOrder>
 	<building>
-		<ai_chillDestination>false</ai_chillDestination>
+	    <ai_chillDestination>false</ai_chillDestination>
 		<destroySound>BuildingDestroyed_Stone_Big</destroySound>
 
 	</building>
