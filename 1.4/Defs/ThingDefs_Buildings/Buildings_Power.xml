@@ -42,10 +42,10 @@
 	    <ComponentIndustrial>4</ComponentIndustrial>
 	</costList>
 	<comps>
-		<li Class="CompProperties_Glower">
+	    <li Class="CompProperties_Glower">
 			<glowRadius>10</glowRadius>
 			<glowColor>(123,0,28,0)</glowColor>
-		</li>
+	    </li>
 		<li Class="CompProperties_Power">
 			<compClass>CompPowerPlantWPGTWater</compClass>
 			<basePowerConsumption>-4800</basePowerConsumption>
