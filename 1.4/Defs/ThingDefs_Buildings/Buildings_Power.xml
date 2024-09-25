@@ -71,7 +71,7 @@
 </ThingDef>
 
 
-	<ThingDef ParentName="FurnitureBase">
+<ThingDef ParentName="FurnitureBase">
 		<defName>WPGTSmollWaterGenerator</defName>
 		<label>Water turbine</label>
 		<description>Water turbines were developed in the 19th century and were widely used for industrial power prior to electrical grids. Now, they are mostly used for electric power generation. Water turbines are mostly found in dams to generate electric power from water potential energy. Water wheels have been used for hundreds of years for industrial power. The migration from water wheels to modern turbines took about one hundred years. Development occurred during the Industrial Revolution, using scientific principles and methods. They also made extensive use of new materials and manufacturing methods developed at the time.</description>
