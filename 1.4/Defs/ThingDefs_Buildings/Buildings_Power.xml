@@ -79,7 +79,7 @@
 	<drawerType>MapMeshAndRealTime</drawerType>
 	<graphicData>
 	    <texPath>Things/Building/Power/SmollWaterGenerator/SmollWaterGeneratorBody</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+	    <graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 		<castEdgeShadows>false</castEdgeShadows>
