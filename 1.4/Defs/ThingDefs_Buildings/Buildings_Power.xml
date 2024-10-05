@@ -81,7 +81,7 @@
 	    <texPath>Things/Building/Power/SmollWaterGenerator/SmollWaterGeneratorBody</texPath>
 	    <graphicClass>Graphic_Multi</graphicClass>
 	    <drawSize>(3,3)</drawSize>
-		</graphicData>
+	</graphicData>
 		<castEdgeShadows>false</castEdgeShadows>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<altitudeLayer>Building</altitudeLayer>
