@@ -98,7 +98,7 @@
 			<Beauty>-30</Beauty>
 			<Mass>20</Mass>
 	</statBases>
-		<tickerType>Normal</tickerType>
+	<tickerType>Normal</tickerType>
 		<size>(3,3)</size>
 		<costList>
 			<WoodLog>100</WoodLog>
