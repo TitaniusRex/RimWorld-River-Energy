@@ -90,7 +90,7 @@
 	<scatterableOnMapGen>false</scatterableOnMapGen>
 	<fillPercent>1</fillPercent>
 	<blockLight>false</blockLight>
-		<canOverlapZones>false</canOverlapZones>
+	<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
