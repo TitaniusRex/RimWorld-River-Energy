@@ -104,7 +104,7 @@
 		<WoodLog>100</WoodLog>
 		<Steel>10</Steel>
 		<ComponentIndustrial>2</ComponentIndustrial>
-		</costList>
+	    </costList>
 	<comps>
 		<li Class="CompProperties_Glower">
 			<glowRadius>4</glowRadius>
