@@ -111,7 +111,7 @@
 		<glowColor>(80,112,180,0)</glowColor>
 	    </li>
 	    <li Class="CompProperties_Power">
-			<compClass>CompPowerPlantWPGTWaterSmoll</compClass>
+		<compClass>CompPowerPlantWPGTWaterSmoll</compClass>
 			<basePowerConsumption>-400</basePowerConsumption>
 			<transmitsPower>true</transmitsPower>
 			<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
