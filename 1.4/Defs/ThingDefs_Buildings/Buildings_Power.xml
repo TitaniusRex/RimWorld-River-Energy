@@ -103,7 +103,7 @@
 	<costList>
 	    <WoodLog>100</WoodLog>
 	    <Steel>10</Steel>
-		<ComponentIndustrial>2</ComponentIndustrial>
+	    <ComponentIndustrial>2</ComponentIndustrial>
 	    </costList>
 	<comps>
 	    <li Class="CompProperties_Glower">
