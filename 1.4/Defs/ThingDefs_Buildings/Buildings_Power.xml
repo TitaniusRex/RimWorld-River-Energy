@@ -112,7 +112,7 @@
 	    </li>
 	    <li Class="CompProperties_Power">
 		<compClass>CompPowerPlantWPGTWaterSmoll</compClass>
-			<basePowerConsumption>-400</basePowerConsumption>
+		<basePowerConsumption>-400</basePowerConsumption>
 			<transmitsPower>true</transmitsPower>
 			<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 		</li>
