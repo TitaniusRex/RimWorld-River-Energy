@@ -102,7 +102,7 @@
 	<size>(3,3)</size>
 	<costList>
 	    <WoodLog>100</WoodLog>
-		<Steel>10</Steel>
+	    <Steel>10</Steel>
 		<ComponentIndustrial>2</ComponentIndustrial>
 	    </costList>
 	<comps>
