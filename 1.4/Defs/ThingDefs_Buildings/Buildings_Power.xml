@@ -114,7 +114,7 @@
 		<compClass>CompPowerPlantWPGTWaterSmoll</compClass>
 		<basePowerConsumption>-400</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
-			<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
+		<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 	    </li>
 		<li Class="CompProperties_Breakdownable"/>
 	</comps>
