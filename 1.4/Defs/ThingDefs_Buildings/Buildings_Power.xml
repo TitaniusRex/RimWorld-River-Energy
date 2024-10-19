@@ -131,7 +131,7 @@
 	    <li>WatermillGenerator</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-</ThingDef>
+    </ThingDef>
 	
     <ThingDef ParentName="BuildingBase" >
 		<defName>WPGTUnderDeepWaterPowerConduit</defName>
