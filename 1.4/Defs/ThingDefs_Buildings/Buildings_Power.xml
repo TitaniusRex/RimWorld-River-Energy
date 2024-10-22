@@ -140,7 +140,7 @@
 	<thingClass>Building</thingClass>
 	<category>Building</category>
 	<graphicData>
-			<texPath>Things/Building/Power/WPGTUnderDeepWaterPowerConduit</texPath>
+	    <texPath>Things/Building/Power/WPGTUnderDeepWaterPowerConduit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>Transmitter</linkType>
 			<linkFlags>
