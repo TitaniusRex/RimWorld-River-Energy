@@ -139,7 +139,7 @@
 	<description>A bundle of electrical cables for moving power around, placed underwater.</description>
 	<thingClass>Building</thingClass>
 	<category>Building</category>
-		<graphicData>
+	<graphicData>
 			<texPath>Things/Building/Power/WPGTUnderDeepWaterPowerConduit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>Transmitter</linkType>
