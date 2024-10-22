@@ -146,7 +146,7 @@
 	    <linkFlags>
 		<li>PowerConduit</li>
 	    </linkFlags>
-			<damageData>
+	    <damageData>
 				<rect>(0,0.35,1,0.3)</rect>
 			</damageData>
 		</graphicData>
