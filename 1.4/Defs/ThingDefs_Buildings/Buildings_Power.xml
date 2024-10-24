@@ -153,7 +153,7 @@
 	<uiIconPath>Things/Building/Linked/WaterproofConduit_MenuIcon</uiIconPath>
         <uiIconScale>0.7</uiIconScale>
 	<building>
-			<ai_chillDestination>false</ai_chillDestination>
+	    <ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
 			<blueprintGraphicData>
