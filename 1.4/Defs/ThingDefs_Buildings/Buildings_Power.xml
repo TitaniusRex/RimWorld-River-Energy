@@ -169,7 +169,7 @@
 		    <MaxHitPoints>350</MaxHitPoints>
 		    <WorkToBuild>350</WorkToBuild>
 		    <Flammability>0.0</Flammability>
-			<Beauty>0</Beauty>
+		    <Beauty>0</Beauty>
 		</statBases>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
