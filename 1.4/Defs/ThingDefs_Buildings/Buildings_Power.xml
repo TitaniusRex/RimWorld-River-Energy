@@ -158,7 +158,7 @@
 	    <isEdifice>false</isEdifice>
 	    <blueprintGraphicData>
 		<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
-		    </blueprintGraphicData>
+	    </blueprintGraphicData>
 		</building>
 		<drawerType>MapMeshOnly</drawerType>
 		<altitudeLayer>Conduits</altitudeLayer>
