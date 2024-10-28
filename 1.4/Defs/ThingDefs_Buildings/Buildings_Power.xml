@@ -165,7 +165,7 @@
 	<passability>Standable</passability>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-		<statBases>
+	<statBases>
 		    <MaxHitPoints>350</MaxHitPoints>
 		    <WorkToBuild>350</WorkToBuild>
 		    <Flammability>0.0</Flammability>
