@@ -180,7 +180,7 @@
 		<compClass>CompPowerTransmitter</compClass>
 		<transmitsPower>true</transmitsPower>
 		    </li>
-		</comps>
+	</comps>
 		<placeWorkers>
 		    <li>PlaceWorker_Conduit</li>
 		</placeWorkers>
