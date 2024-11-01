@@ -181,7 +181,7 @@
 		<transmitsPower>true</transmitsPower>
 	    </li>
 	</comps>
-		<placeWorkers>
+	<placeWorkers>
 		    <li>PlaceWorker_Conduit</li>
 		</placeWorkers>
 		<rotatable>false</rotatable>
