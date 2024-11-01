@@ -182,7 +182,7 @@
 	    </li>
 	</comps>
 	<placeWorkers>
-		    <li>PlaceWorker_Conduit</li>
+	    <li>PlaceWorker_Conduit</li>
 	</placeWorkers>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
