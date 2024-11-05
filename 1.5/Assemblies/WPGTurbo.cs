@@ -150,7 +150,7 @@ using Verse;
 	    vector += parent.Rotation.FacingCell.ToVector3() * 0f;
 	    for (int i = 0; i < 9; i++)
 	    {
-		    float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
+	        float num = spinPosition + (float)Math.PI * 2f * (float)i / 9f;
 		    float x = Mathf.Abs(4f * Mathf.Sin(num));
 		    bool num2 = num % ((float)Math.PI * 2f) < (float)Math.PI;
 		    Vector2 vector2 = new Vector2(x, 1f);
