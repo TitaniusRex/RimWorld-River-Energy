@@ -17,7 +17,7 @@
 		<offset>(-0.20,0,0)</offset>
 	    </shadowData>
 	<damageData>
-		<rect>(-0.005,2.16,5,4.6)</rect>
+	    <rect>(-0.005,2.16,5,4.6)</rect>
 	</damageData>
 	</graphicData>
 	<castEdgeShadows>false</castEdgeShadows>
