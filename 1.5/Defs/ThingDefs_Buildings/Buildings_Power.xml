@@ -10,7 +10,7 @@
 	<drawerType>MapMeshAndRealTime</drawerType>
 	<graphicData>
 	    <texPath>Things/Building/Power/WaterPowerGenerator/HydroelectricPowerStationBody</texPath>
-		<graphicClass>Graphic_Multi</graphicClass>
+	    <graphicClass>Graphic_Multi</graphicClass>
 		<drawSize>(5,9)</drawSize>
 		<shadowData>
 			<volume>(4.6,1,4.6)</volume>
