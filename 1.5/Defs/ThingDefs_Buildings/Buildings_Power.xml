@@ -38,7 +38,7 @@
 	<tickerType>Normal</tickerType>
 	<size>(5,9)</size>
 	<costList>
-		<Steel>600</Steel>
+	    <Steel>600</Steel>
 		<ComponentIndustrial>4</ComponentIndustrial>
 	</costList>
 	<comps>
