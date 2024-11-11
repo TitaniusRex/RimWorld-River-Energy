@@ -31,7 +31,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<statBases>
 	    <MaxHitPoints>3500</MaxHitPoints>
-		<WorkToBuild>77777</WorkToBuild>
+	    <WorkToBuild>77777</WorkToBuild>
 		<Flammability>0</Flammability>
 		<Beauty>-20</Beauty>
 	</statBases>
