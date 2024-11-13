@@ -39,7 +39,7 @@
 	<size>(5,9)</size>
 	<costList>
 	    <Steel>600</Steel>
-		<ComponentIndustrial>4</ComponentIndustrial>
+	    <ComponentIndustrial>4</ComponentIndustrial>
 	</costList>
 	<comps>
 		<li Class="CompProperties_Glower">
