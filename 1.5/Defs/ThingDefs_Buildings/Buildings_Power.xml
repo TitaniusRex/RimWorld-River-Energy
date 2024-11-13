@@ -46,7 +46,7 @@
 			<glowRadius>10</glowRadius>
 			<glowColor>(123,0,28,0)</glowColor>
 	    </li>
-		<li Class="CompProperties_Power">
+	    <li Class="CompProperties_Power">
 			<compClass>CompPowerPlantWPGTWater</compClass>
 			<basePowerConsumption>-4800</basePowerConsumption>
 			<transmitsPower>true</transmitsPower>
