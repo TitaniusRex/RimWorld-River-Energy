@@ -60,7 +60,7 @@
 	<designationCategory>Power</designationCategory>
 	<uiOrder>2500</uiOrder>
 	<building>
-		<ai_chillDestination>false</ai_chillDestination>
+	    <ai_chillDestination>false</ai_chillDestination>
 		<destroySound>BuildingDestroyed_Stone_Big</destroySound>
 	</building>
 	<constructEffect>ConstructMetal</constructEffect>
