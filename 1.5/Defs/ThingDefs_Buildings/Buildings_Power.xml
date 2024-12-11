@@ -68,7 +68,7 @@
 	    <li>WatermillGenerator</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
-</ThingDef>
+    </ThingDef>
 
 
 	<ThingDef ParentName="FurnitureBase">
