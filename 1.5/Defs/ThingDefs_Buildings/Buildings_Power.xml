@@ -65,7 +65,7 @@
 	</building>
 	<constructEffect>ConstructMetal</constructEffect>
 	<researchPrerequisites>
-		<li>WatermillGenerator</li>
+	    <li>WatermillGenerator</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
 </ThingDef>
