@@ -83,7 +83,7 @@
 	    <drawSize>(3,3)</drawSize>
 	</graphicData>
 	    <castEdgeShadows>false</castEdgeShadows>
-		<staticSunShadowHeight>0</staticSunShadowHeight>
+	    <staticSunShadowHeight>0</staticSunShadowHeight>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<blockWind>false</blockWind>
