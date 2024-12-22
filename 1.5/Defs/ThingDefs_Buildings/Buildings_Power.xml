@@ -88,7 +88,7 @@
 	<passability>PassThroughOnly</passability>
 	<blockWind>false</blockWind>
 	<scatterableOnMapGen>false</scatterableOnMapGen>
-	    <fillPercent>1</fillPercent>
+	<fillPercent>1</fillPercent>
 	<blockLight>false</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
