@@ -91,7 +91,7 @@
 	<fillPercent>1</fillPercent>
 	<blockLight>false</blockLight>
 	<canOverlapZones>false</canOverlapZones>
-		<statBases>
+	<statBases>
 		    <MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>1</Flammability>
