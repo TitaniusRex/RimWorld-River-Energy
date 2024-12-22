@@ -86,7 +86,7 @@
 	<staticSunShadowHeight>0</staticSunShadowHeight>
 	<altitudeLayer>Building</altitudeLayer>
 	<passability>PassThroughOnly</passability>
-	    <blockWind>false</blockWind>
+	<blockWind>false</blockWind>
 	    <scatterableOnMapGen>false</scatterableOnMapGen>
 	    <fillPercent>1</fillPercent>
 	<blockLight>false</blockLight>
