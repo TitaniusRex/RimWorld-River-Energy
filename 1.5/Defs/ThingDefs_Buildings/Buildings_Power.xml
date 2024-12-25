@@ -100,7 +100,7 @@
 	</statBases>
 	<tickerType>Normal</tickerType>
 	<size>(3,3)</size>
-		<costList>
+	<costList>
 			<WoodLog>100</WoodLog>
 			<Steel>10</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
