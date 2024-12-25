@@ -16,7 +16,7 @@
 		<volume>(4.6,1,4.6)</volume>
 		<offset>(-0.20,0,0)</offset>
 	    </shadowData>
-	<damageData>
+	    <damageData>
 	    <rect>(-0.005,2.16,5,4.6)</rect>
 	</damageData>
 	</graphicData>
