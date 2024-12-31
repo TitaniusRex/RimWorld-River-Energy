@@ -106,7 +106,7 @@
 	    <ComponentIndustrial>2</ComponentIndustrial>
 	</costList>
 	<comps>
-		<li Class="CompProperties_Glower">
+	    <li Class="CompProperties_Glower">
 			<glowRadius>4</glowRadius>
 			<glowColor>(80,112,180,0)</glowColor>
 		</li>
