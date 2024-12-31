@@ -116,7 +116,7 @@
 			<transmitsPower>true</transmitsPower>
 			<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 	    </li>
-		<li Class="CompProperties_Breakdownable"/>
+	    <li Class="CompProperties_Breakdownable"/>
 	</comps>
 	<rotatable>true</rotatable>
 	<terrainAffordanceNeeded>MovingFluid</terrainAffordanceNeeded>
