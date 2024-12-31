@@ -109,7 +109,7 @@
 	    <li Class="CompProperties_Glower">
 	        <glowRadius>4</glowRadius>
 		<glowColor>(80,112,180,0)</glowColor>
-		</li>
+	    </li>
 		<li Class="CompProperties_Power">
 			<compClass>CompPowerPlantWPGTWaterSmoll</compClass>
 			<basePowerConsumption>-400</basePowerConsumption>
