@@ -173,7 +173,7 @@
 		</statBases>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
-			<Steel>12</Steel>
+			<Steel>25</Steel>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
