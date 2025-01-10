@@ -120,7 +120,7 @@
 	</comps>
 	<rotatable>true</rotatable>
 	<terrainAffordanceNeeded>MovingFluid</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+	<designationCategory>Power</designationCategory>
 	<uiOrder>1800</uiOrder>
 	<building>
 		<ai_chillDestination>false</ai_chillDestination>
