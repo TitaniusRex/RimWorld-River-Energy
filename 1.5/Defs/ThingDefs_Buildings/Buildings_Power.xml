@@ -134,7 +134,7 @@
     </ThingDef>
 	
     <ThingDef ParentName="BuildingBase" >
-		<defName>WPGTUnderDeepWaterPowerConduit</defName>
+	<defName>WPGTUnderDeepWaterPowerConduit</defName>
 		<label>underwater power conduit</label>
 		<description>A bundle of electrical cables for moving power around, placed underwater.</description>
 		<thingClass>Building</thingClass>
