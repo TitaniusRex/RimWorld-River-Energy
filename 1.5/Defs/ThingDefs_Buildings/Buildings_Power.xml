@@ -128,7 +128,7 @@
 	</building>
 	<constructEffect>ConstructWood</constructEffect>
 	<researchPrerequisites>
-		<li>WatermillGenerator</li>
+	    <li>WatermillGenerator</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 </ThingDef>
