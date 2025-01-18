@@ -184,7 +184,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<placeWorkers>
 	    <li>PlaceWorker_Conduit</li>
 	</placeWorkers>
-	    <rotatable>false</rotatable>
+	<rotatable>false</rotatable>
 	    <selectable>true</selectable>
 	    <neverMultiSelect>true</neverMultiSelect>
 	    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
