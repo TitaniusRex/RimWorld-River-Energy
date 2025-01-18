@@ -189,7 +189,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<neverMultiSelect>true</neverMultiSelect>
 	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+	<designationCategory>Power</designationCategory>
 		<constructEffect>ConstructDirt</constructEffect>
 		<clearBuildingArea>false</clearBuildingArea>
 		<researchPrerequisites>
