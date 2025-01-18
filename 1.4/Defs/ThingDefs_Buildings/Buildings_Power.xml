@@ -190,7 +190,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 	<designationCategory>Power</designationCategory>
-		<constructEffect>ConstructDirt</constructEffect>
+	<constructEffect>ConstructDirt</constructEffect>
 		<clearBuildingArea>false</clearBuildingArea>
 		<researchPrerequisites>
 		    <li>Electricity</li>
