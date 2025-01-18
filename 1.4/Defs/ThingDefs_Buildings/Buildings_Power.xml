@@ -186,7 +186,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	</placeWorkers>
 	<rotatable>false</rotatable>
 	<selectable>true</selectable>
-	    <neverMultiSelect>true</neverMultiSelect>
+	<neverMultiSelect>true</neverMultiSelect>
 	    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
