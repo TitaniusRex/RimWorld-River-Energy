@@ -133,7 +133,7 @@
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     </ThingDef>
 	
-    <ThingDef ParentName="BuildingBase" >
+    <ThingDef ParentName="BuildingBase">
 	<defName>WPGTUnderDeepWaterPowerConduit</defName>
 	<label>underwater power conduit</label>
 	<description>A bundle of electrical cables for moving power around, placed underwater.</description>
