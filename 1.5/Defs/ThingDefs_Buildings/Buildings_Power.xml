@@ -154,7 +154,7 @@
         <uiIconScale>0.7</uiIconScale>
 	<building>
 	    <ai_chillDestination>false</ai_chillDestination>
-			<isInert>true</isInert>
+	    <isInert>true</isInert>
 			<isEdifice>false</isEdifice>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
