@@ -160,7 +160,7 @@
 	        <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
 	    </blueprintGraphicData>
 	</building>
-		<drawerType>MapMeshOnly</drawerType>
+	<drawerType>MapMeshOnly</drawerType>
 		<altitudeLayer>Conduits</altitudeLayer>
 		<passability>Standable</passability>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
