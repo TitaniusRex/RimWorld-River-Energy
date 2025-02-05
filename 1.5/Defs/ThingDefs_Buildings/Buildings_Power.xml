@@ -157,7 +157,7 @@
 	    <isInert>true</isInert>
 	    <isEdifice>false</isEdifice>
 	    <blueprintGraphicData>
-				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+	        <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
 	    </blueprintGraphicData>
 	</building>
 		<drawerType>MapMeshOnly</drawerType>
