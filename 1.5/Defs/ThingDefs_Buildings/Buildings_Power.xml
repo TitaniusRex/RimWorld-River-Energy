@@ -171,7 +171,7 @@
 	    <Flammability>0.0</Flammability>
 	    <Beauty>0</Beauty>
 	</statBases>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+	<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
 		    <Steel>12</Steel>
 		</costList>
