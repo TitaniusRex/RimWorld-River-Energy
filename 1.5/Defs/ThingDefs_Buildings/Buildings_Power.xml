@@ -175,7 +175,7 @@
 	<costList>
 	    <Steel>12</Steel>
 	</costList>
-		<comps>
+	<comps>
 		    <li Class="CompProperties_Power">
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
