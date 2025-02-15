@@ -178,7 +178,7 @@
 	<comps>
 	    <li Class="CompProperties_Power">
 		<compClass>CompPowerTransmitter</compClass>
-				<transmitsPower>true</transmitsPower>
+		<transmitsPower>true</transmitsPower>
 	    </li>
 		</comps>
 		<placeWorkers>
