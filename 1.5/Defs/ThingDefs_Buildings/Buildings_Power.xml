@@ -188,7 +188,7 @@
 	<selectable>true</selectable>
 	<neverMultiSelect>true</neverMultiSelect>
 	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<constructEffect>ConstructDirt</constructEffect>
 		<clearBuildingArea>false</clearBuildingArea>
