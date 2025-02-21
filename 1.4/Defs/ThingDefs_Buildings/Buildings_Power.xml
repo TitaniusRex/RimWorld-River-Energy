@@ -193,7 +193,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<constructEffect>ConstructDirt</constructEffect>
 	<clearBuildingArea>false</clearBuildingArea>
 	<researchPrerequisites>
-		    <li>Electricity</li>
+	    <li>Electricity</li>
 	</researchPrerequisites>
 	</ThingDef>
 
