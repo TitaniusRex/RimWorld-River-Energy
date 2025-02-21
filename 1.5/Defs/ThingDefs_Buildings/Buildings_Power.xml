@@ -194,7 +194,7 @@
 	<clearBuildingArea>false</clearBuildingArea>
 	<researchPrerequisites>
 	    <li>Electricity</li>
-		</researchPrerequisites>
+	</researchPrerequisites>
 	</ThingDef>
 
 
