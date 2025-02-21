@@ -194,7 +194,7 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<clearBuildingArea>false</clearBuildingArea>
 	    <researchPrerequisites>
 		    <li>Electricity</li>
-		</researchPrerequisites>
+	</researchPrerequisites>
 	</ThingDef>
 
 </Defs>
