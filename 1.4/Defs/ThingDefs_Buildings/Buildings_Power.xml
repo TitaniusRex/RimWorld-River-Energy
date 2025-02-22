@@ -195,6 +195,6 @@ pp<?xml version="1.0" encoding="utf-8"?>
 	<researchPrerequisites>
 	    <li>Electricity</li>
 	</researchPrerequisites>
-	</ThingDef>
+    </ThingDef>
 
 </Defs>
